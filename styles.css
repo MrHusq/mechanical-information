@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/1102015169_univ_lsr_md.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-bottom: 2px solid #3498db;
+}
+
+#menu li {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#menu li:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#content {
+    padding: 20px;
+    text-align: center;
+}
+
+#pdf-container {
+    display: none;
+    
+}
+
+#image-container {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu li {
+        font-size: 16px; /* Reducir el tamaño del texto del menú en pantallas pequeñas */
+    }
+}
