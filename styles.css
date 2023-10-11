@@ -10,6 +10,11 @@ body {
     background-position: center center;
 }
 
+p {
+    color: white;
+  }
+  
+
 #header {
     background-color: #3498db;
     color: #fff;
