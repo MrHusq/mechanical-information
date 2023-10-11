@@ -1,4 +1,4 @@
-// qCGfDe3RV87EXWm
+
     const escuela = document.getElementById("escuela");
     const territorio = document.getElementById("territorio");
     const discurso = document.getElementById("discurso");
